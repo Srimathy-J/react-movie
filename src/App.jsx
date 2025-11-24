@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from "./pages/Navbar.jsx"; // Corrected path
+import NavBar from "./pages/NavBar.jsx";
 import Home from './pages/Home.jsx'
 import WatchList from './pages/WatchList.jsx'
 import MovieCard from './components/MovieCard.jsx'
@@ -17,7 +17,7 @@ function App() {
     <>
     <WatchListProvider>
      <BrowserRouter>
-       <Navbar/>
+       <NavBar/>
          <Routes>
              <Route path='/' element={<Home/>} />
              <Route path='/watchlist' element={<WatchList/>} />
