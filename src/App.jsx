@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NavBar from "./pages/NavBar.jsx";
 import Home from './pages/Home.jsx'
-import WatchList from './pages/WatchList.jsx'
+import WatchList from './pages/Watchlist.jsx'
 import MovieCard from './components/MovieCard.jsx'
 import GenreFilter from './components/GenreFilter.jsx'
 
