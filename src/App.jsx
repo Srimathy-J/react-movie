@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from "./Pages/Navbar.jsx"; // Corrected path
+import Navbar from "./pages/Navbar.jsx"; // Corrected path
 import Home from './pages/Home.jsx'
 import WatchList from './pages/WatchList.jsx'
 import MovieCard from './components/MovieCard.jsx'
